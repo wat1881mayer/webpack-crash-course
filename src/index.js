@@ -1,7 +1,6 @@
 import _ from 'lodash'
-import Lion from './utilities'
+import './style.css'
 
-console.log(Lion.say())
 
 function component(){
     const element = document.createElement('div')
@@ -11,3 +10,4 @@ function component(){
 }
 
 document.body.appendChild(component())
+document.body.classList.add('haikei')
