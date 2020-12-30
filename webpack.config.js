@@ -25,6 +25,14 @@ module.exports = {
                     limit: 2048,
                     name: './images/[name].[ext]'
                 }
+            },
+            {
+                test: /\.scss$/,
+                use: [
+                    'style-loader',
+                    'css-loader',
+                    'sass-loader'
+                ]
             }
         ]
     },
